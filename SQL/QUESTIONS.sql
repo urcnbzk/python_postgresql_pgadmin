@@ -1,9 +1,19 @@
 
 1. What are the details of all customers whose country is 'Spain'?
+SELECT * 
+FROM Customers
+WHERE Country = 'Spain';
 
 2. What are the distinct cities of customers from Germany with a city containing the letter 'B'?
+SELECT
+FROM Customers
+WHERE Country = 'Germany'
+AND City LIKE '%B%';
 
 3. What are the number of orders placed by each customer? Sort the result by the number of orders in descending order.
+SELECT
+FROM Orders
+
 
 4. What are the customers who have placed more than 3 orders?
 
